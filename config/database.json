@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "bismillah999",
+    "operatorsAliases": false,
+    "database": "test_angga",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "",
+    "password": null,
+    "operatorsAliases": false,
+    "database": "",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "",
+    "password": null,
+    "operatorsAliases": false,
+    "database": "",
+    "host": "",
+    "dialect": ""
+  }
+}
