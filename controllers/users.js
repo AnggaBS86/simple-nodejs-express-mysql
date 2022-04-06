@@ -13,9 +13,9 @@ module.exports = {
 
         return user
         .create({
-            firstName: req.body.firstName,
-            lastName: req.body.lastName,
-            birthdayDate: req.body.birthdayDate,
+            first_name: req.body.firstName,
+            last_name: req.body.lastName,
+            birthday_date: req.body.birthdayDate,
             location: req.body.location
         })
         .then(user => res.status(201).json(ResponseFormater.build(

@@ -1,10 +1,10 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var user = sequelize.define('User', {
-    firstName: DataTypes.STRING,
-    lastName: DataTypes.STRING,
-    birthdayDate: DataTypes.STRING,
+    first_name: DataTypes.STRING,
+    last_name: DataTypes.STRING,
+    birthday_date: DataTypes.STRING,
     location: DataTypes.STRING
-  }, {});
+  }, {underscored: true});
   return user;
 };
